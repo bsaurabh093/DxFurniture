@@ -44,6 +44,8 @@ section {
     list-style: none;
     padding-top: 5px;
     padding-bottom: 5px;
+    display: flex;
+    align-items: center;
 }
 
 #a li img {
@@ -83,12 +85,16 @@ section {
     z-index: 9;
     background: #fff;
     max-width: 150px;
-    right: 15px;
+    right: 5px;
 
 }
 
 .open {
     display: show !important;
+}
+
+.lang-select {
+    position: relative
 }
 
 .btn-select {
